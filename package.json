@@ -15,7 +15,8 @@
     "lint": "npm-run-all test-types prettier-check lint-eslint",
     "test-types": "tsc",
     "prettier-check": "prettier --check .",
-    "lint-eslint": "eslint . --ext js,jsx,ts,tsx --max-warnings=0 --config .eslintrc.js"
+    "lint-eslint": "eslint . --ext js,jsx,ts,tsx --max-warnings=0 --config .eslintrc.js",
+    "prepare": "husky install"
   },
   "dependencies": {
     "expo": "~44.0.0",
@@ -41,7 +42,8 @@
     "prettier": "^2.5.1",
     "react-test-renderer": "17",
     "ts-node": "^10.4.0",
-    "typescript": "~4.3.5"
+    "typescript": "~4.3.5",
+    "husky": "^7.0.0"
   },
   "private": true
 }
