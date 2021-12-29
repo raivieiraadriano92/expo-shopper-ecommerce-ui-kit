@@ -1,7 +1,7 @@
 import React from "react";
 import renderer, { ReactTestRendererJSON } from "react-test-renderer";
 
-import App from "./App";
+import { App } from "./App";
 
 describe("<App />", () => {
   it("renders correctly", () => {
