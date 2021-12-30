@@ -1,11 +1,14 @@
 import { FunctionComponent } from 'react'
 
-import { Box, NativeBaseProvider, Text } from 'native-base'
+import { NativeBaseProvider } from 'native-base'
+import { enableFreeze } from 'react-native-screens'
+
+import { RootStackNavigator } from './navigation'
+
+enableFreeze(true)
 
 export const App: FunctionComponent = () => (
   <NativeBaseProvider>
-    <Box alignItems="center" flex={1} justifyContent="center">
-      <Text>Hello world</Text>
-    </Box>
+    <RootStackNavigator />
   </NativeBaseProvider>
 )
