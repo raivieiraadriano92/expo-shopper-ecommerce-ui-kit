@@ -16,7 +16,8 @@ const config: Config.InitialOptions = {
     '!**/node_modules/**',
     '!**/babel.config.js',
     '!**/jest.setup.js'
-  ]
+  ],
+  setupFilesAfterEnv: ['@testing-library/jest-native/extend-expect']
 }
 
 export default config

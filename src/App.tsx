@@ -3,6 +3,7 @@ import { FunctionComponent, useCallback, useState } from 'react'
 import AppLoading from 'expo-app-loading'
 import * as Font from 'expo-font'
 import { NativeBaseProvider } from 'native-base'
+import { View } from 'react-native'
 import { enableFreeze } from 'react-native-screens'
 
 import Poppins_900Black from '../assets/fonts/Poppins-Black.ttf'
@@ -43,24 +44,22 @@ export const App: FunctionComponent = () => {
     // other resources ...
   }, [loadFonts])
 
+  const onFinish = useCallback(() => setIsReady(true), [])
+
   if (!isReady) {
-    return (
-      <AppLoading
-        startAsync={loadResources}
-        onFinish={() => setIsReady(true)}
-        onError={console.warn}
-      />
-    )
+    return <AppLoading startAsync={loadResources} onFinish={onFinish} onError={console.warn} />
   }
 
   return (
-    <NativeBaseProvider
-      config={{
-        enableRem: true,
-        suppressColorAccessibilityWarning: true
-      }}
-      {...{ theme }}>
-      <RootStackNavigator />
-    </NativeBaseProvider>
+    <View style={{ flex: 1 }} testID="App">
+      <NativeBaseProvider
+        config={{
+          enableRem: true,
+          suppressColorAccessibilityWarning: true
+        }}
+        {...{ theme }}>
+        <RootStackNavigator />
+      </NativeBaseProvider>
+    </View>
   )
 }
