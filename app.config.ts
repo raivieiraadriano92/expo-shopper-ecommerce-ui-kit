@@ -26,7 +26,8 @@ const config: ExpoConfig = {
   },
   web: {
     favicon: './assets/favicon.png'
-  }
+  },
+  jsEngine: 'hermes'
 }
 
 export default config
