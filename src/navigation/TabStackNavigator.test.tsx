@@ -1,10 +1,10 @@
 import { render, waitFor } from 'src/test-utils'
 
-import { App } from './App'
+import { TabStackNavigator } from './TabStackNavigator'
 
-describe('<App />', () => {
+describe('<TabStackNavigator />', () => {
   it('renders correctly', async () => {
-    const { findByTestId, toJSON } = render(<App />)
+    const { findByTestId, toJSON } = render(<TabStackNavigator />)
 
     await waitFor(() => findByTestId('AppWrapper'))
 
