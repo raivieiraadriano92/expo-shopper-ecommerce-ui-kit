@@ -1,7 +1,7 @@
 import { DeliveryIllustration as Delivery } from './DeliveryIllustration'
 import { HiIllustration as Hi } from './HiIllustration'
-import { LogoIconIllustration as Logo } from './LogoIconIllustration'
-import { LogoIllustration as LogoIcon } from './LogoIllustration'
+import { LogoIconIllustration as LogoIcon } from './LogoIconIllustration'
+import { LogoIllustration as Logo } from './LogoIllustration'
 import { OpenStoreIllustration as OpenStore } from './OpenStoreIllustration'
 import { ProductsIllustration as Products } from './ProductsIllustration'
 
