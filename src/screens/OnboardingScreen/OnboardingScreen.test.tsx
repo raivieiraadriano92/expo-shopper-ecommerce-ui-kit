@@ -1,4 +1,4 @@
-import { render, waitFor } from 'test-utils'
+import { fireEvent, render, waitFor } from 'test-utils'
 
 import { OnboardingScreen } from './OnboardingScreen'
 
@@ -7,7 +7,7 @@ describe('<OnboardingScreen />', () => {
     //@ts-ignore
     const { findByText, toJSON } = render(<OnboardingScreen />)
 
-    await waitFor(() => findByText('Welcome to'))
+    await waitFor(() => findByText('Explore Us'))
 
     expect(toJSON()).toMatchSnapshot()
   })

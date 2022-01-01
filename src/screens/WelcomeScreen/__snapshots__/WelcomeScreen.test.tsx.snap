@@ -1,0 +1,574 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WelcomeScreen /> renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "paddingBottom": 24,
+        "paddingLeft": 24,
+        "paddingRight": 24,
+        "paddingTop": 24,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "flex": 1,
+          "maxWidth": 448,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "flex-start",
+              "display": "flex",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <RNSVGSvgView
+            align="xMidYMid"
+            bbHeight={256}
+            bbWidth={427}
+            fill="none"
+            focusable={false}
+            height={256}
+            meetOrSlice={0}
+            minX={0}
+            minY={0}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                },
+                Object {
+                  "flex": 0,
+                  "height": 256,
+                  "width": 427,
+                },
+              ]
+            }
+            vbHeight={256}
+            vbWidth={427}
+            width={427}
+          >
+            <RNSVGGroup
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+            >
+              <RNSVGPath
+                clipRule={0}
+                d="M236.271 102.645c13.489-41.542 48.526-6.578 48.594-35.466l1.089.266c-.522 3.807-1.725 11.2-2.436 14.543-18.793 1.934-40.097 13.553-47.239 20.65l-.008.007zm75.921-56.275c-1.431 0-2.816.51-3.909 1.44a6.105 6.105 0 00-2.061 3.638c-4.978-4.24-12.43-5.764-16.644 2.399v-.092c-.507.975-3.026 6.602-3.503 7.751-.075.175-.143.343-.212.518l.757-.22c.28-.084 2.822-6.625 2.867-6.625 4.275 1.37 9.563-4.896 9.442-4.013a8.67 8.67 0 00.22 1.706c.756 3.807 2.958 6.228 4.66 7.941l.098-.175c.992 1.158 1.71 2.049 1.627 2.635-1.513 4.188-3.261 8.733-2.141 17.04 13.618 1.706 36.474 4.005 53.413 20.817-5.379-43.187-28.825-14.429-41.422-22.187-9.941-6.092-3.843-11.482-4.251-18.952a7.859 7.859 0 00-.258-1.568 6.016 6.016 0 004.824-1.02 6.084 6.084 0 002.472-4.291c.089-.85 0-1.71-.262-2.523a6.104 6.104 0 00-1.259-2.196 6.053 6.053 0 00-2.039-1.49 6.017 6.017 0 00-2.465-.526l.046-.007z"
+                fill={4278256653}
+                fillRule={0}
+                propList={
+                  Array [
+                    "fill",
+                    "fillRule",
+                  ]
+                }
+              />
+              <RNSVGPath
+                clipRule={0}
+                d="M303.378 80.092c1.029-1.393.076-5.002-.204-7.69-.182-1.759.809-4.37 1.581-6.48.605-1.629 2.186 1.98 2.746-4.811.212-2.551-3.578-2.802-3.594-.244-2.125-2.14-5.129-5.444-4.955-11.086-4.615 6.708-10.282 5.04-9.306 5.269-1.006 1.523-2.67 6.662-2.98 6.753-8.141 2.338-10.017 3.412-.719 5.65-.522 3.807-1.725 11.2-2.436 14.543 6.582-.525 18.081.525 19.867-1.904z"
+                fill={4294967295}
+                fillRule={0}
+                propList={
+                  Array [
+                    "fill",
+                    "fillRule",
+                  ]
+                }
+              />
+              <RNSVGPath
+                clipRule={0}
+                d="M301.623 80.085c48.737-.571 77.532 35.024 80.286 78.523 1.732 27.259-13.346 50.763-36.61 50.596-4.176 0 .484 4.294-3.231 6.35-24.126 13.37-56.136 6.365-79.832 9.343-20.48 2.565-43.086-4.569-42.367-11.422.484-4.621 5.114-18.882 5.213-26.535-56.455 6.13-70.928-60.303-66.404-92.335 7.99-13.569 40.098-8.003 41.944-2.246 4.766 40.179 14.677 31.095 25.905 17.915 17.764-20.862 45.212-29.84 75.096-30.19z"
+                fill={4278697893}
+                fillRule={0}
+                propList={
+                  Array [
+                    "fill",
+                    "fillRule",
+                  ]
+                }
+              />
+              <RNSVGPath
+                clipRule={0}
+                d="M283.601 146.358c-2.708-.983-11.25 6.692-3.154 11.245-3.087.252-9.465 6.16 8.783 14.262 6.514 2.695 14.556 6.601 20.601 12.076 2.346-3.731 11.046-16.965 13.043-35.452-7.838-8.093-17.075-13.705-22.787-14.634-3.178-.83-4.842 2.056-4.804 4.119-11.856-3.586-15.979 4.668-11.682 8.384z"
+                fill={4294967295}
+                fillRule={0}
+                propList={
+                  Array [
+                    "fill",
+                    "fillRule",
+                  ]
+                }
+              />
+              <RNSVGPath
+                d="M298.18 60.345c.391-.61.296-1.374-.213-1.705-.509-.33-1.239-.103-1.631.509-.392.611-.297 1.374.212 1.705.509.33 1.24.103 1.632-.509zM290.881 57.858c.276-.431.21-.969-.149-1.201-.358-.233-.872-.072-1.148.36-.277.43-.21.968.148 1.2.358.233.872.072 1.149-.359zM291.167 101.381c.426 0 .772-.416.772-.929 0-.513-.346-.929-.772-.929-.426 0-.772.416-.772.929 0 .513.346.929.772.929zM287.838 119.731c.426 0 .772-.416.772-.929 0-.513-.346-.929-.772-.929-.426 0-.772.416-.772.929 0 .513.346.929.772.929z"
+                fill={4278256653}
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+              />
+              <RNSVGPath
+                clipRule={0}
+                d="M178.682 56.154c-5.296-17.772-7.967-25.888-12.673-24.274-8.004 2.688-3.268 15.403 1.831 31.317-8.874-11.208-16.947-17.216-20.805-13.34-5.387 5.413-.061 8.375 12.748 25.34-.257 6.852-.378 11.23 6.189 15.525 1.112.76.491 2.687.166 4.644 5.788 0 14.919 1.995 27.569-6.091 1.135-1.097 19.671-26.817 13.459-33.335-1.513-1.621-9.079-2.893-15.6 9.945 3.17-23.048.507-34.47-4.161-34.987-3.367-.38-6.643 8.817-8.723 25.256z"
+                fill={4294967295}
+                fillRule={0}
+                propList={
+                  Array [
+                    "fill",
+                    "fillRule",
+                  ]
+                }
+              />
+              <RNSVGPath
+                d="M234.455 95.998c10.388-21.951 26.018-14.467 42.466-16.629 4.842-.64 7.83-5.49 8.912-12.236m.84-5.512c.628-3.906 1.18-4.889 2.429-7.729 2.867-6.51 10.705-7.758 17.711-2.924 2.005-5.543 8.723-5.124 10.38-.654 2.194 5.931-2.845 10.104-6.28 8.116 2.966 6.617-5.409 15.137 4.139 20.718 11.545 6.746 36.799-18.982 45.439 17.825m-67.788-37.736c-1.294 2.056-21.986 5.482-8.103 7.843 2.852.487 8.95-1.348 11.349-3.343m47.284 57.25c-1.846 4.995-8.844 32.246-6.241 36.548m-2.837-.716c.711 19.987-5.712 30.297-13.051 39.403M286.87 88.049c0 12.183-8.859 38.778-8.436 51.776.462 14.017-4.895 27.205-7.225 40.187-.696 3.883-1.763 13.553-2.966 23.497m-38.161-30.373c-3.026 4.569-6.998 28.454-8.42 34.644M163.71 90.28c-1.007.305-5.478 1.805-5.296 6.007-1.559 35.238 11.189 90.92 61.205 91.636 1.143 0 5.213.053 6.151-.762m-24.505-84.089c-12.695 10.294-32.736 11.025-42.594 6.936m36.224-21.076c-14.511 9.373-27.993 6.64-31.738 6.137m27.774-29.588c7.611-27.35-6.461-57.829-12.287-9.266-.817 6.799-5.296-34.08-15.328-22.599-3.873 4.44 2.27 23.17 4.456 30.007.318.967-13.3-19.31-20.82-13.766-7.52 5.543 12.733 24.152 12.77 25.629.197 8.269-.204 11.086 6.999 15.883m26.335-1.751c2.27-1.432 19.323-28.317 14.246-33.007-7.989-7.378-18.346 14.139-19.042 14.116-5.886-.152-16.463 9.137-14.375 15.685m126.172 76.529c-21.419-13.507-33.947-.64-10.978 8.847 6.59 2.719 14.776 6.678 20.881 12.259 2.149 1.965 8.632 9.556 11.613 11.992 11.924 9.754 24.013 12.876 26.147 12.876m-25.11-60.25c-2.028 19.339-11.099 32.512-13.036 35.656m-3.208-29.695c-29.029-18.692-33.697.404-26.018 2.81m31.662-11.117c-5.893-8.794-37.003-14.048-28.802-.654m12.4-8.482c1.309-7.615 13.822-2.452 20.238 5.428 2.096 2.574 5.167 4.043 7.339 5.764 10.591 8.414 22.129 17.802 30.133 20.132m-75.86-85.514a43.95 43.95 0 00-1.725 7.302c1.188-1.058 12.65-6.533 12.695-6.441 5.599 11.238 7.331 12.548 14.776-.594.181-.245.303-.53.356-.83m-12.907-11.878c-1.196 4.713 3.328 8.55 7.822-2.452m-8.322 1.592c4.199 2.154 7.717-.762 10.653-5.33m-134.229 26.87c-.189.875-.174 3.243-.325 3.746l.325-3.746z"
+                propList={
+                  Array [
+                    "stroke",
+                    "strokeWidth",
+                    "strokeLinecap",
+                    "strokeLinejoin",
+                  ]
+                }
+                stroke={4278256653}
+                strokeLinecap={1}
+                strokeLinejoin={1}
+                strokeWidth={1.42}
+              />
+              <RNSVGPath
+                clipRule={0}
+                d="M78.5 31.47C37.523 30.156.885 22.47.026 26.147-1.027 30.686 29.897 43.43 43.9 58.41l8.076-6.58 6.5 3.02 5.163 2.627-1.226-13.505L78.5 31.47z"
+                fill={4294938957}
+                fillRule={0}
+                propList={
+                  Array [
+                    "fill",
+                    "fillRule",
+                  ]
+                }
+              />
+              <RNSVGPath
+                d="M126.976 48.755c-5.644-2.524-30.844-10.9-45.167-12.986M88.861 53.202c-6.87-2.166-14.61-5.346-21.193-7.086M77.332 32.22a416.499 416.499 0 00-33.33 25.35m19.499-.508L62.07 43.87l-26.855-7.23-26.854-7.231 27.57 13.827 27.57 13.827zM55.59 63.18a47.606 47.606 0 00-9.16-4.47"
+                propList={
+                  Array [
+                    "stroke",
+                    "strokeWidth",
+                    "strokeLinecap",
+                    "strokeLinejoin",
+                  ]
+                }
+                stroke={4278264349}
+                strokeLinecap={1}
+                strokeLinejoin={1}
+                strokeWidth={1.42}
+              />
+            </RNSVGGroup>
+          </RNSVGSvgView>
+        </View>
+        <View
+          style={
+            Object {
+              "height": 40,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        >
+          <RNSVGSvgView
+            align="xMidYMid"
+            bbHeight={48}
+            bbWidth={48}
+            fill="none"
+            focusable={false}
+            height={48}
+            meetOrSlice={0}
+            minX={0}
+            minY={0}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                },
+                Object {
+                  "flex": 0,
+                  "height": 48,
+                  "width": 48,
+                },
+              ]
+            }
+            vbHeight={48}
+            vbWidth={48}
+            width={48}
+          >
+            <RNSVGGroup
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                ]
+              }
+            >
+              <RNSVGRect
+                fill={4278697893}
+                height={48}
+                propList={
+                  Array [
+                    "fill",
+                  ]
+                }
+                rx={10}
+                width={48}
+                x={0}
+                y={0}
+              />
+              <RNSVGPath
+                clipRule={0}
+                d="M9.767 10.997a2.4 2.4 0 10-1.6.118C9.289 18.855 15.95 24.8 24 24.8s14.712-5.945 15.834-13.685a2.401 2.401 0 10-1.6-.118C37.176 17.907 31.206 23.2 24 23.2c-7.205 0-13.175-5.293-14.233-12.203z"
+                fill={4294967295}
+                fillRule={0}
+                propList={
+                  Array [
+                    "fill",
+                    "fillRule",
+                  ]
+                }
+              />
+            </RNSVGGroup>
+          </RNSVGSvgView>
+          <View
+            style={
+              Object {
+                "height": 16,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "flexWrap": "wrap",
+                "justifyContent": "flex-start",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": undefined,
+                  "color": "#404040",
+                  "fontFamily": "Poppins_700Bold",
+                  "fontSize": 40,
+                  "fontStyle": undefined,
+                  "fontWeight": undefined,
+                  "letterSpacing": 0,
+                  "lineHeight": 48,
+                  "textDecorationLine": undefined,
+                }
+              }
+            >
+              Welcome to 
+            </Text>
+            <View
+              style={Object {}}
+            />
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": undefined,
+                    "color": "#404040",
+                    "fontFamily": "Poppins_700Bold",
+                    "fontSize": 40,
+                    "fontStyle": undefined,
+                    "fontWeight": undefined,
+                    "letterSpacing": 0,
+                    "lineHeight": 48,
+                    "textDecorationLine": undefined,
+                  }
+                }
+              >
+                Shop
+              </Text>
+              <View
+                style={Object {}}
+              />
+              <Text
+                style={
+                  Object {
+                    "backgroundColor": undefined,
+                    "color": "#07BFA5",
+                    "fontFamily": "Poppins_700Bold",
+                    "fontSize": 40,
+                    "fontStyle": undefined,
+                    "fontWeight": undefined,
+                    "letterSpacing": 0,
+                    "lineHeight": 48,
+                    "textDecorationLine": undefined,
+                  }
+                }
+              >
+                per
+              </Text>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "height": 16,
+              }
+            }
+          />
+          <Text
+            style={
+              Object {
+                "backgroundColor": undefined,
+                "color": "#8991A4",
+                "fontFamily": "Poppins_400Regular",
+                "fontSize": 14,
+                "fontStyle": undefined,
+                "fontWeight": undefined,
+                "letterSpacing": 0,
+                "lineHeight": 22,
+                "textAlign": "left",
+                "textDecorationLine": undefined,
+              }
+            }
+          >
+            Make it your own. As you're setting up your online store, you have the ability to customize.
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "height": 40,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            _disabled={
+              Object {
+                "bg": "trueGray.300",
+                "opacity": "50",
+              }
+            }
+            _loading={
+              Object {
+                "bg": "warmGray.50",
+                "opacity": "50",
+              }
+            }
+            _text={
+              Object {
+                "color": "lightText",
+              }
+            }
+            accessibilityRole="button"
+            accessible={true}
+            collapsable={false}
+            colorScheme="secondary"
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onHoverIn={[Function]}
+            onHoverOut={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#01040D",
+                "borderRadius": 16,
+                "flexDirection": "row",
+                "height": 64,
+                "justifyContent": "center",
+                "paddingBottom": 8,
+                "paddingLeft": 24,
+                "paddingRight": 24,
+                "paddingTop": 8,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={Object {}}
+              >
+                <Text
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "color": "#FFFFFF",
+                      "fontFamily": "Poppins_700Bold",
+                      "fontSize": 16,
+                      "fontStyle": undefined,
+                      "fontWeight": undefined,
+                      "letterSpacing": 0,
+                      "lineHeight": 24,
+                      "textDecorationLine": undefined,
+                    }
+                  }
+                >
+                  Sign In
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "height": 12,
+              }
+            }
+          />
+          <View
+            _disabled={
+              Object {
+                "opacity": "50",
+              }
+            }
+            _loading={
+              Object {
+                "opacity": "80",
+              }
+            }
+            _text={
+              Object {
+                "color": "lightText",
+              }
+            }
+            accessibilityRole="button"
+            accessible={true}
+            collapsable={false}
+            colorScheme="secondary"
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onHoverIn={[Function]}
+            onHoverOut={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "transparent",
+                "borderColor": "#071B59",
+                "borderRadius": 16,
+                "borderWidth": 1,
+                "flexDirection": "row",
+                "height": 64,
+                "justifyContent": "center",
+                "paddingBottom": 8,
+                "paddingLeft": 24,
+                "paddingRight": 24,
+                "paddingTop": 8,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <View
+                style={Object {}}
+              >
+                <Text
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "color": "#01040D",
+                      "fontFamily": "Poppins_700Bold",
+                      "fontSize": 16,
+                      "fontStyle": undefined,
+                      "fontWeight": undefined,
+                      "letterSpacing": 0,
+                      "lineHeight": 24,
+                      "textDecorationLine": undefined,
+                    }
+                  }
+                >
+                  Register
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;

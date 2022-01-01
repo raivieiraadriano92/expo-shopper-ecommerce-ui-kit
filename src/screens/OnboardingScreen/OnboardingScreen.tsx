@@ -1,71 +1,52 @@
-import { useCallback } from 'react'
-
-import {
-  Button,
-  Center,
-  Container,
-  Heading,
-  HStack,
-  Text,
-  useBreakpointValue,
-  VStack
-} from 'native-base'
-import { Illustrations } from 'src/components'
+import bgOnboarding from 'assets/bg-onboarding.png'
+import { Button, Center, Container, Heading, HStack, Text, VStack } from 'native-base'
+import { ImageBackground } from 'react-native'
+import { Icons, Illustrations } from 'src/components'
 import { RootStackScreenComponent } from 'src/navigation'
 
+import { useOnboardingScreen } from './useOnboardingScreen'
+
 export const OnboardingScreen: RootStackScreenComponent<'Onboarding'> = ({ navigation }) => {
-  const responsiveLayout = useBreakpointValue({
-    base: true,
-    lg: false
+  const { goToNextStep, goToWelcomeScreen, stepContent, stepIndex } = useOnboardingScreen({
+    navigation
   })
 
-  const goToSignInScreen = useCallback(() => navigation.navigate('SignIn'), [navigation])
-
-  const goToRegisterScreen = useCallback(() => navigation.navigate('Register'), [navigation])
-
   return (
-    <VStack alignItems="center" flex={1} p={6} safeArea>
-      <Container flex={1} maxW="md" w="full">
-        <VStack flex={1} space={10} w="full">
-          {!responsiveLayout && (
-            <Center>
-              <Illustrations.Logo size={158} />
+    <ImageBackground resizeMode="contain" source={bgOnboarding} style={{ flex: 1 }}>
+      <VStack {...(stepIndex ? { bg: 'white' } : {})} alignItems="center" flex={1} p={6} safeArea>
+        <Container flex={1} maxW="md" w="full">
+          {stepIndex ? (
+            <>
+              <VStack space={4} w="full">
+                <Heading size="2xl">{stepContent?.heading}</Heading>
+                <Text color="gray.500" variant="body2">
+                  {stepContent?.text}
+                </Text>
+              </VStack>
+              <Center flex={1} w="full">
+                {stepContent?.illustration}
+              </Center>
+            </>
+          ) : (
+            <Center flex={1} w="full">
+              <Illustrations.Logo size={238} />
             </Center>
           )}
-          <Center alignItems={{ base: 'flex-start', lg: 'center' }} flex={1}>
-            <Illustrations.Hi size={responsiveLayout ? 427 : 600} />
-          </Center>
-          <VStack space={4} w="full">
-            {responsiveLayout && <Illustrations.LogoIcon size={48} />}
-            <HStack
-              flexWrap="wrap"
-              justifyContent={{
-                base: 'flex-start',
-                lg: 'center'
-              }}>
-              <Heading size="4xl">{`Welcome to `}</Heading>
-              <HStack>
-                <Heading size="4xl">Shop</Heading>
-                <Heading color="primary.500" size="4xl">
-                  per
-                </Heading>
-              </HStack>
-            </HStack>
-            <Text color="gray.500" textAlign={{ base: 'left', lg: 'center' }} variant="body2">
-              Make it your own. As you're setting up your online store, you have the ability to
-              customize.
-            </Text>
-          </VStack>
-          <VStack space={3} w="full">
-            <Button colorScheme="secondary" onPress={goToSignInScreen}>
-              Sign In
+          <HStack justifyContent="space-between" w="full">
+            {!!stepIndex && (
+              <Button colorScheme="secondary" onPress={goToWelcomeScreen} variant="link">
+                Skip
+              </Button>
+            )}
+            <Button
+              {...(stepIndex ? { rightIcon: <Icons.ArrowRight size={5} /> } : { w: 'full' })}
+              colorScheme="secondary"
+              onPress={goToNextStep}>
+              {stepIndex ? 'Next' : 'Explore Us'}
             </Button>
-            <Button colorScheme="secondary" onPress={goToRegisterScreen} variant="outline">
-              Register
-            </Button>
-          </VStack>
-        </VStack>
-      </Container>
-    </VStack>
+          </HStack>
+        </Container>
+      </VStack>
+    </ImageBackground>
   )
 }
