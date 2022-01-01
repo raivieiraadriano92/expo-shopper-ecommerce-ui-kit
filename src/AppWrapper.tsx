@@ -36,6 +36,9 @@ export const AppWrapper: FunctionComponent = ({ children }) => {
   ) : (
     <NativeBaseProvider
       config={{
+        dependencies: {
+          'linear-gradient': require('expo-linear-gradient').LinearGradient
+        },
         enableRem: true,
         suppressColorAccessibilityWarning: true
       }}
