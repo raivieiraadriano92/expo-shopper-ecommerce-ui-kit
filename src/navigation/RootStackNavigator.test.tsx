@@ -6,7 +6,7 @@ describe('<RootStackNavigator />', () => {
   it('renders correctly', async () => {
     const { findByText, toJSON } = render(<RootStackNavigator />)
 
-    await waitFor(() => findByText('Welcome to'))
+    await waitFor(() => findByText('Explore Us'))
 
     expect(toJSON()).toMatchSnapshot()
   })

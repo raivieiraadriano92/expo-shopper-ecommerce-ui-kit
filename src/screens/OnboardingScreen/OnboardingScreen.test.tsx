@@ -1,4 +1,4 @@
-import { fireEvent, render, waitFor } from 'test-utils'
+import { render, waitFor } from 'test-utils'
 
 import { OnboardingScreen } from './OnboardingScreen'
 
