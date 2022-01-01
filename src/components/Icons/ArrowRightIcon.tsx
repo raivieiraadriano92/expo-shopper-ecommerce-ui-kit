@@ -1,12 +1,12 @@
 import { createIcon } from 'native-base'
 import { Path } from 'react-native-svg'
 
-export const BackIcon = createIcon({
+export const ArrowRightIcon = createIcon({
   viewBox: '0 0 20 20',
   path: [
     <Path
       key={Math.random()}
-      d="M18.3337 10H1.66699"
+      d="M1.66671 10L18.3334 10"
       fill="none"
       stroke="currentColor"
       strokeWidth={1.4}
@@ -16,7 +16,7 @@ export const BackIcon = createIcon({
     />,
     <Path
       key={Math.random()}
-      d="M7.50033 15.8332L1.66699 9.99984L7.50033 4.1665"
+      d="M12.5 4.16671L18.3334 10L12.5 15.8334"
       fill="none"
       stroke="currentColor"
       strokeWidth={1.4}

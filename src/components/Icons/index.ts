@@ -1,5 +1,6 @@
 import { AddIcon as Add } from './AddIcon'
-import { BackIcon as Back } from './BackIcon'
+import { ArrowLeftIcon as ArrowLeft } from './ArrowLeftIcon'
+import { ArrowRightIcon as ArrowRight } from './ArrowRightIcon'
 import { BagIcon as Bag } from './BagIcon'
 import { CartIcon as Cart } from './CartIcon'
 import { CheckIcon as Check } from './CheckIcon'
@@ -20,7 +21,8 @@ import { UserIcon as User } from './UserIcon'
 
 export default {
   Add,
-  Back,
+  ArrowLeft,
+  ArrowRight,
   Bag,
   Cart,
   Check,
