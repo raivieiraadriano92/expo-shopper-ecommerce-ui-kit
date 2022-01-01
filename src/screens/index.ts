@@ -8,7 +8,7 @@ export { ForgotPasswordScreen } from './ForgotPasswordScreen'
 
 export { HomeScreen } from './HomeScreen'
 
-export { OnboardingScreen } from './OnboardingScreen'
+export { OnboardingScreen } from './OnboardingScreen/OnboardingScreen'
 
 export { OrderScreen } from './OrderScreen'
 

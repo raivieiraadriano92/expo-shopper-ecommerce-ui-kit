@@ -1,6 +1,7 @@
 import { FunctionComponent } from 'react'
 
 import { createNativeStackNavigator, NativeStackScreenProps } from '@react-navigation/native-stack'
+import { useTheme } from 'native-base'
 
 import {
   ChangePasswordScreen,
@@ -27,16 +28,27 @@ export type RootStackScreenComponent<RouteName extends keyof RootStackParamList>
 
 const NativeStackNavigator = createNativeStackNavigator<RootStackParamList>()
 
-export const RootStackNavigator: FunctionComponent = () => (
-  <NativeStackNavigator.Navigator initialRouteName="Onboarding">
-    <NativeStackNavigator.Screen component={OnboardingScreen} name="Onboarding" />
-    <NativeStackNavigator.Group>
-      <NativeStackNavigator.Screen component={ChangePasswordScreen} name="ChangePassword" />
-      <NativeStackNavigator.Screen component={ForgotPasswordScreen} name="ForgotPassword" />
-      <NativeStackNavigator.Screen component={RegisterScreen} name="Register" />
-      <NativeStackNavigator.Screen component={SignInScreen} name="SignIn" />
-      <NativeStackNavigator.Screen component={VerifyCodeScreen} name="VerifyCode" />
-    </NativeStackNavigator.Group>
-    <NativeStackNavigator.Screen component={TabStackNavigator} name="Tabs" />
-  </NativeStackNavigator.Navigator>
-)
+export const RootStackNavigator: FunctionComponent = () => {
+  const theme = useTheme()
+
+  return (
+    <NativeStackNavigator.Navigator
+      initialRouteName="Onboarding"
+      screenOptions={{
+        contentStyle: {
+          backgroundColor: theme.colors.white
+        },
+        headerShown: false
+      }}>
+      <NativeStackNavigator.Screen component={OnboardingScreen} name="Onboarding" />
+      <NativeStackNavigator.Group>
+        <NativeStackNavigator.Screen component={ChangePasswordScreen} name="ChangePassword" />
+        <NativeStackNavigator.Screen component={ForgotPasswordScreen} name="ForgotPassword" />
+        <NativeStackNavigator.Screen component={RegisterScreen} name="Register" />
+        <NativeStackNavigator.Screen component={SignInScreen} name="SignIn" />
+        <NativeStackNavigator.Screen component={VerifyCodeScreen} name="VerifyCode" />
+      </NativeStackNavigator.Group>
+      <NativeStackNavigator.Screen component={TabStackNavigator} name="Tabs" />
+    </NativeStackNavigator.Navigator>
+  )
+}
