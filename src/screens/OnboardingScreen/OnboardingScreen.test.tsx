@@ -1,10 +1,11 @@
 import { render, waitFor } from 'test-utils'
 
-import { RootStackNavigator } from './RootStackNavigator'
+import { OnboardingScreen } from './OnboardingScreen'
 
-describe('<RootStackNavigator />', () => {
+describe('<OnboardingScreen />', () => {
   it('renders correctly', async () => {
-    const { findByText, toJSON } = render(<RootStackNavigator />)
+    //@ts-ignore
+    const { findByText, toJSON } = render(<OnboardingScreen />)
 
     await waitFor(() => findByText('Welcome to'))
 

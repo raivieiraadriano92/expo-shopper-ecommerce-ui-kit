@@ -1,8 +1,8 @@
 import { Config } from '@jest/types'
 
 const config: Config.InitialOptions = {
-  preset: 'jest-expo',
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
+  preset: 'jest-expo',
   // By default, all files inside `node_modules` are not transformed. But some 3rd party
   // modules are published as untranspiled, Jest will not understand the code in these modules.
   // To overcome this, exclude these modules in the ignore pattern.
@@ -17,7 +17,7 @@ const config: Config.InitialOptions = {
     '!**/babel.config.js',
     '!**/jest.setup.js'
   ],
-  setupFilesAfterEnv: ['@testing-library/jest-native/extend-expect']
+  setupFilesAfterEnv: ['@testing-library/jest-native/extend-expect', './test-utils/setup.js']
 }
 
 export default config

@@ -1,12 +1,12 @@
-import { render, waitFor } from 'src/test-utils'
+import { render, waitFor } from '@testing-library/react-native'
 
 import { App } from './App'
 
 describe('<App />', () => {
   it('renders correctly', async () => {
-    const { findByTestId, toJSON } = render(<App />)
+    const { findByText, toJSON } = render(<App />)
 
-    await waitFor(() => findByTestId('AppWrapper'))
+    await waitFor(() => findByText('Welcome to'))
 
     expect(toJSON()).toMatchSnapshot()
   })
