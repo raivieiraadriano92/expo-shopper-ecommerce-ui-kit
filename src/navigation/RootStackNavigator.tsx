@@ -46,13 +46,14 @@ export const RootStackNavigator: FunctionComponent = () => {
         headerShown: false
       }}>
       <NativeStackNavigator.Screen component={OnboardingScreen} name="Onboarding" />
-      <NativeStackNavigator.Group>
+      <NativeStackNavigator.Screen component={WelcomeScreen} name="Welcome" />
+      <NativeStackNavigator.Group
+        screenOptions={{ contentStyle: { backgroundColor: theme.colors.primary[850] } }}>
         <NativeStackNavigator.Screen component={ChangePasswordScreen} name="ChangePassword" />
         <NativeStackNavigator.Screen component={ForgotPasswordScreen} name="ForgotPassword" />
         <NativeStackNavigator.Screen component={RegisterScreen} name="Register" />
         <NativeStackNavigator.Screen component={SignInScreen} name="SignIn" />
         <NativeStackNavigator.Screen component={VerifyCodeScreen} name="VerifyCode" />
-        <NativeStackNavigator.Screen component={WelcomeScreen} name="Welcome" />
       </NativeStackNavigator.Group>
       <NativeStackNavigator.Screen component={TabStackNavigator} name="Tabs" />
     </NativeStackNavigator.Navigator>
