@@ -5,7 +5,6 @@ import { AuthScreenTemplate } from './AuthScreenTemplate'
 
 describe('<AuthScreenTemplate />', () => {
   it('renders correctly', async () => {
-    //@ts-ignore
     const { findByText, toJSON } = render(
       <AuthScreenTemplate>
         <Text>testing...</Text>
