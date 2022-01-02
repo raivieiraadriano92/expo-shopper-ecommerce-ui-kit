@@ -19,7 +19,7 @@ type Props = {
 const items: TabBarItem[] = [
   { key: 'home', icon: 'Home' },
   { key: 'search', icon: 'Search' },
-  { key: 'cart', icon: 'Cart' },
+  { key: 'cart', icon: 'Bag' },
   { key: 'order', icon: 'List' },
   { key: 'account', icon: 'User' }
 ]
