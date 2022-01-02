@@ -4,8 +4,6 @@ export { CartScreen } from './CartScreen'
 
 export { ChangePasswordScreen } from './ChangePasswordScreen'
 
-export { ForgotPasswordScreen } from './ForgotPasswordScreen'
-
 export { HomeScreen } from './HomeScreen'
 
 export { OrderScreen } from './OrderScreen'
@@ -13,6 +11,8 @@ export { OrderScreen } from './OrderScreen'
 export { SearchScreen } from './SearchScreen'
 
 export { VerifyCodeScreen } from './VerifyCodeScreen'
+
+export { ForgotPasswordScreen } from './ForgotPasswordScreen/ForgotPasswordScreen'
 
 export { OnboardingScreen } from './OnboardingScreen/OnboardingScreen'
 
