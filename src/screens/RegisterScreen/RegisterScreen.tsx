@@ -43,7 +43,7 @@ export const RegisterScreen: RootStackScreenComponent<'Register'> = ({ navigatio
               }
             }}>
             <Heading color="gray.500" opacity={0.5} size="xl">
-              Sign in
+              Sign In
             </Heading>
           </Box>
         </TouchableOpacity>

@@ -12,12 +12,12 @@ export { OrderScreen } from './OrderScreen'
 
 export { SearchScreen } from './SearchScreen'
 
-export { SignInScreen } from './SignInScreen'
-
 export { VerifyCodeScreen } from './VerifyCodeScreen'
 
 export { OnboardingScreen } from './OnboardingScreen/OnboardingScreen'
 
 export { RegisterScreen } from './RegisterScreen/RegisterScreen'
+
+export { SignInScreen } from './SignInScreen/SignInScreen'
 
 export { WelcomeScreen } from './WelcomeScreen/WelcomeScreen'

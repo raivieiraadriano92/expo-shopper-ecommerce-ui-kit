@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<RegisterScreen /> renders correctly 1`] = `
+exports[`<SignInScreen /> renders correctly 1`] = `
 <RNCSafeAreaProvider
   onInsetsChange={[Function]}
   style={
@@ -170,6 +170,49 @@ exports[`<RegisterScreen /> renders correctly 1`] = `
                   }
                 }
               >
+                <ViewManagerAdapter_ExpoLinearGradient
+                  proxiedProperties={
+                    Object {
+                      "colors": Array [
+                        4294292389,
+                        4294967295,
+                        4294967295,
+                        4294967295,
+                      ],
+                      "endPoint": Array [
+                        1,
+                        0,
+                      ],
+                      "locations": undefined,
+                      "startPoint": Array [
+                        1,
+                        1,
+                      ],
+                    }
+                  }
+                  style={Object {}}
+                >
+                  <Text
+                    style={
+                      Object {
+                        "backgroundColor": undefined,
+                        "color": "#404040",
+                        "fontFamily": "Poppins_700Bold",
+                        "fontSize": 22,
+                        "fontStyle": undefined,
+                        "fontWeight": undefined,
+                        "letterSpacing": 0,
+                        "lineHeight": 28,
+                        "textDecorationLine": undefined,
+                      }
+                    }
+                  >
+                    Sign In
+                  </Text>
+                </ViewManagerAdapter_ExpoLinearGradient>
+                <View
+                  style={Object {}}
+                />
                 <View
                   accessible={true}
                   focusable={true}
@@ -224,53 +267,10 @@ exports[`<RegisterScreen /> renders correctly 1`] = `
                         }
                       }
                     >
-                      Sign In
+                      Register
                     </Text>
                   </ViewManagerAdapter_ExpoLinearGradient>
                 </View>
-                <View
-                  style={Object {}}
-                />
-                <ViewManagerAdapter_ExpoLinearGradient
-                  proxiedProperties={
-                    Object {
-                      "colors": Array [
-                        4294292389,
-                        4294967295,
-                        4294967295,
-                        4294967295,
-                      ],
-                      "endPoint": Array [
-                        1,
-                        0,
-                      ],
-                      "locations": undefined,
-                      "startPoint": Array [
-                        1,
-                        1,
-                      ],
-                    }
-                  }
-                  style={Object {}}
-                >
-                  <Text
-                    style={
-                      Object {
-                        "backgroundColor": undefined,
-                        "color": "#404040",
-                        "fontFamily": "Poppins_700Bold",
-                        "fontSize": 22,
-                        "fontStyle": undefined,
-                        "fontWeight": undefined,
-                        "letterSpacing": 0,
-                        "lineHeight": 28,
-                        "textDecorationLine": undefined,
-                      }
-                    }
-                  >
-                    Register
-                  </Text>
-                </ViewManagerAdapter_ExpoLinearGradient>
               </View>
               <View
                 style={
@@ -436,333 +436,6 @@ exports[`<RegisterScreen /> renders correctly 1`] = `
                     }
                     underlineColorAndroid="transparent"
                   />
-                </View>
-                <View
-                  style={
-                    Object {
-                      "height": 16,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "alignItems": "center",
-                      "borderColor": "#e5e5e5",
-                      "borderRadius": 16,
-                      "borderWidth": 1,
-                      "display": "flex",
-                      "flexDirection": "row",
-                      "height": 52,
-                      "justifyContent": "space-between",
-                      "overflow": "hidden",
-                    }
-                  }
-                >
-                  <RNSVGSvgView
-                    accessibilityRole="image"
-                    align="xMidYMid"
-                    bbHeight={20}
-                    bbWidth={20}
-                    color={4280690214}
-                    focusable={false}
-                    meetOrSlice={0}
-                    minX={0}
-                    minY={0}
-                    stroke=""
-                    style={
-                      Array [
-                        Object {
-                          "backgroundColor": "transparent",
-                          "borderWidth": 0,
-                        },
-                        Object {
-                          "color": "#262626",
-                          "height": 20,
-                          "marginLeft": 16,
-                          "width": 20,
-                        },
-                        Object {
-                          "flex": 0,
-                          "height": 20,
-                          "width": 20,
-                        },
-                      ]
-                    }
-                    tintColor={4280690214}
-                    vbHeight={20}
-                    vbWidth={20}
-                  >
-                    <RNSVGGroup
-                      propList={
-                        Array [
-                          "stroke",
-                        ]
-                      }
-                      stroke={null}
-                    >
-                      <RNSVGGroup>
-                        <RNSVGPath
-                          d="M18.3332 14.0999V16.5999C18.3341 16.832 18.2866 17.0617 18.1936 17.2744C18.1006 17.487 17.9643 17.6779 17.7933 17.8348C17.6222 17.9917 17.4203 18.1112 17.2005 18.1855C16.9806 18.2599 16.7477 18.2875 16.5165 18.2666C13.9522 17.988 11.489 17.1117 9.32486 15.7083C7.31139 14.4288 5.60431 12.7217 4.32486 10.7083C2.91651 8.53426 2.04007 6.05908 1.76653 3.48325C1.7457 3.25281 1.77309 3.02055 1.84695 2.80127C1.9208 2.58199 2.03951 2.38049 2.1955 2.2096C2.3515 2.03871 2.54137 1.90218 2.75302 1.80869C2.96468 1.7152 3.19348 1.6668 3.42486 1.66658H5.92486C6.32928 1.6626 6.72136 1.80582 7.028 2.06953C7.33464 2.33324 7.53493 2.69946 7.59153 3.09992C7.69705 3.89997 7.89274 4.68552 8.17486 5.44158C8.28698 5.73985 8.31125 6.06401 8.24478 6.37565C8.17832 6.68729 8.02392 6.97334 7.79986 7.19992L6.74153 8.25825C7.92783 10.3445 9.65524 12.072 11.7415 13.2583L12.7999 12.1999C13.0264 11.9759 13.3125 11.8215 13.6241 11.755C13.9358 11.6885 14.2599 11.7128 14.5582 11.8249C15.3143 12.107 16.0998 12.3027 16.8999 12.4083C17.3047 12.4654 17.6744 12.6693 17.9386 12.9812C18.2029 13.2931 18.3433 13.6912 18.3332 14.0999Z"
-                          fill={null}
-                          propList={
-                            Array [
-                              "fill",
-                              "stroke",
-                              "strokeWidth",
-                              "strokeLinecap",
-                              "strokeLinejoin",
-                            ]
-                          }
-                          stroke={
-                            Array [
-                              2,
-                            ]
-                          }
-                          strokeLinecap={1}
-                          strokeLinejoin={1}
-                          strokeWidth={1.4}
-                        />
-                      </RNSVGGroup>
-                    </RNSVGGroup>
-                  </RNSVGSvgView>
-                  <TextInput
-                    _disabled={
-                      Object {
-                        "bg": "muted.100",
-                        "opacity": "80",
-                      }
-                    }
-                    _invalid={
-                      Object {
-                        "borderColor": "danger.600",
-                      }
-                    }
-                    _text={
-                      Object {
-                        "color": "lightText",
-                      }
-                    }
-                    accessible={true}
-                    allowFontScaling={true}
-                    editable={true}
-                    onBlur={[Function]}
-                    onFocus={[Function]}
-                    onKeyPress={[Function]}
-                    placeholder="Phone number"
-                    placeholderTextColor="#a3a3a3"
-                    rejectResponderTermination={true}
-                    secureTextEntry={false}
-                    selectionColor="#1f2937"
-                    style={
-                      Object {
-                        "backgroundColor": "transparent",
-                        "borderColor": "#e5e5e5",
-                        "borderRadius": 16,
-                        "borderWidth": 0,
-                        "color": "#1f2937",
-                        "flex": 1,
-                        "fontFamily": "Poppins_400Regular",
-                        "fontSize": 14,
-                        "fontStyle": undefined,
-                        "fontWeight": undefined,
-                        "height": 52,
-                        "lineHeight": 22,
-                        "paddingBottom": 16,
-                        "paddingLeft": 16,
-                        "paddingRight": 16,
-                        "paddingTop": 16,
-                        "width": undefined,
-                      }
-                    }
-                    underlineColorAndroid="transparent"
-                  />
-                </View>
-                <View
-                  style={
-                    Object {
-                      "height": 16,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "borderColor": "transparent",
-                      "borderRadius": 16,
-                      "borderWidth": 1,
-                    }
-                  }
-                >
-                  <View
-                    accessibilityRole="button"
-                    accessible={true}
-                    collapsable={false}
-                    focusable={true}
-                    onBlur={[Function]}
-                    onClick={[Function]}
-                    onFocus={[Function]}
-                    onResponderGrant={[Function]}
-                    onResponderMove={[Function]}
-                    onResponderRelease={[Function]}
-                    onResponderTerminate={[Function]}
-                    onResponderTerminationRequest={[Function]}
-                    onStartShouldSetResponder={[Function]}
-                  >
-                    <View
-                      pointerEvents="none"
-                    >
-                      <View
-                        style={
-                          Object {
-                            "alignItems": "center",
-                            "borderColor": "#e5e5e5",
-                            "borderRadius": 16,
-                            "borderWidth": 1,
-                            "display": "flex",
-                            "flexDirection": "row",
-                            "height": 52,
-                            "justifyContent": "space-between",
-                            "overflow": "hidden",
-                          }
-                        }
-                      >
-                        <TextInput
-                          _disabled={
-                            Object {
-                              "bg": "muted.100",
-                              "opacity": "80",
-                            }
-                          }
-                          _invalid={
-                            Object {
-                              "borderColor": "danger.600",
-                            }
-                          }
-                          _selectedItem={
-                            Object {
-                              "bg": "gray.100",
-                            }
-                          }
-                          _text={
-                            Object {
-                              "color": "lightText",
-                            }
-                          }
-                          accessible={true}
-                          allowFontScaling={true}
-                          aria-hidden={true}
-                          dropdownIcon={
-                            <Memo
-                              mr={4}
-                              size={5}
-                            />
-                          }
-                          editable={false}
-                          focusable={false}
-                          importantForAccessibility="no"
-                          onBlur={[Function]}
-                          onFocus={[Function]}
-                          onKeyPress={[Function]}
-                          placeholder="Country"
-                          placeholderTextColor="#a3a3a3"
-                          rejectResponderTermination={true}
-                          secureTextEntry={false}
-                          selectionColor="#1f2937"
-                          style={
-                            Object {
-                              "backgroundColor": "transparent",
-                              "borderColor": "#e5e5e5",
-                              "borderRadius": 16,
-                              "borderWidth": 0,
-                              "color": "#1f2937",
-                              "flex": 1,
-                              "fontFamily": "Poppins_400Regular",
-                              "fontSize": 14,
-                              "fontStyle": undefined,
-                              "fontWeight": undefined,
-                              "height": 52,
-                              "lineHeight": 22,
-                              "paddingBottom": 16,
-                              "paddingLeft": 16,
-                              "paddingRight": 16,
-                              "paddingTop": 16,
-                              "width": undefined,
-                            }
-                          }
-                          underlineColorAndroid="transparent"
-                        />
-                        <RNSVGSvgView
-                          accessibilityRole="image"
-                          align="xMidYMid"
-                          bbHeight={20}
-                          bbWidth={20}
-                          color={4280690214}
-                          focusable={false}
-                          meetOrSlice={0}
-                          minX={0}
-                          minY={0}
-                          stroke=""
-                          style={
-                            Array [
-                              Object {
-                                "backgroundColor": "transparent",
-                                "borderWidth": 0,
-                              },
-                              Object {
-                                "color": "#262626",
-                                "height": 20,
-                                "marginRight": 16,
-                                "width": 20,
-                              },
-                              Object {
-                                "flex": 0,
-                                "height": 20,
-                                "width": 20,
-                              },
-                            ]
-                          }
-                          tintColor={4280690214}
-                          vbHeight={20}
-                          vbWidth={20}
-                        >
-                          <RNSVGGroup
-                            propList={
-                              Array [
-                                "stroke",
-                              ]
-                            }
-                            stroke={null}
-                          >
-                            <RNSVGGroup>
-                              <RNSVGPath
-                                clipRule={0}
-                                d="M9.40874 12.2553L6.07778 8.92597C5.92106 8.76932 5.83301 8.55685 5.83301 8.33531C5.83301 7.87398 6.20717 7.5 6.66872 7.5L13.3306 7.5C13.5523 7.5 13.7648 7.58801 13.9216 7.74466C14.2479 8.07087 14.2479 8.59976 13.9216 8.92597L10.5906 12.2553C10.2642 12.5816 9.7351 12.5816 9.40874 12.2553Z"
-                                fill={
-                                  Array [
-                                    2,
-                                  ]
-                                }
-                                fillRule={0}
-                                propList={
-                                  Array [
-                                    "fill",
-                                    "fillRule",
-                                    "stroke",
-                                  ]
-                                }
-                                stroke={
-                                  Array [
-                                    2,
-                                  ]
-                                }
-                              />
-                            </RNSVGGroup>
-                          </RNSVGGroup>
-                        </RNSVGSvgView>
-                      </View>
-                    </View>
-                  </View>
                 </View>
                 <View
                   style={
@@ -1065,171 +738,39 @@ exports[`<RegisterScreen /> renders correctly 1`] = `
                   }
                 />
                 <View
+                  accessible={true}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
                   style={
                     Object {
-                      "alignItems": "center",
-                      "flexDirection": "row",
+                      "opacity": 1,
                     }
                   }
                 >
-                  <View
-                    accessibilityRole="checkbox"
-                    accessible={true}
-                    collapsable={false}
-                    focusable={true}
-                    onBlur={[Function]}
-                    onClick={[Function]}
-                    onFocus={[Function]}
-                    onHoverIn={[Function]}
-                    onHoverOut={[Function]}
-                    onResponderGrant={[Function]}
-                    onResponderMove={[Function]}
-                    onResponderRelease={[Function]}
-                    onResponderTerminate={[Function]}
-                    onResponderTerminationRequest={[Function]}
-                    onStartShouldSetResponder={[Function]}
-                    style={Object {}}
-                  >
-                    <View
-                      style={
-                        Object {
-                          "alignItems": "center",
-                          "flexDirection": "row",
-                          "justifyContent": "flex-start",
-                          "marginBottom": 8,
-                          "marginTop": 8,
-                        }
-                      }
-                    >
-                      <View
-                        style={
-                          Object {
-                            "alignItems": "center",
-                            "display": "flex",
-                            "justifyContent": "center",
-                          }
-                        }
-                      >
-                        <View
-                          style={
-                            Object {
-                              "borderRadius": 9999,
-                              "height": "100%",
-                              "paddingBottom": 20,
-                              "paddingLeft": 20,
-                              "paddingRight": 20,
-                              "paddingTop": 20,
-                              "position": "absolute",
-                              "width": "100%",
-                              "zIndex": -1,
-                            }
-                          }
-                        />
-                        <View
-                          _focusVisible={
-                            Object {
-                              "_interactionBox": Object {
-                                "bg": "rgba(72, 248, 223, 0.5)",
-                              },
-                            }
-                          }
-                          _invalid={
-                            Object {
-                              "borderColor": "error.600",
-                            }
-                          }
-                          accessibilityRole="checkbox"
-                          accessibilityState={
-                            Object {
-                              "checked": false,
-                              "disabled": undefined,
-                            }
-                          }
-                          checked={false}
-                          colorScheme="primary"
-                          defaultIsChecked={false}
-                          disabled={false}
-                          style={
-                            Object {
-                              "alignItems": "center",
-                              "backgroundColor": "transparent",
-                              "borderColor": "#d4d4d4",
-                              "borderRadius": 4,
-                              "borderWidth": 2,
-                              "display": "flex",
-                              "justifyContent": "center",
-                            }
-                          }
-                          value="ok"
-                        >
-                          <View
-                            style={
-                              Object {
-                                "color": "#fafafa",
-                                "height": 16,
-                                "width": 16,
-                              }
-                            }
-                          />
-                        </View>
-                      </View>
-                      <Text
-                        style={
-                          Object {
-                            "backgroundColor": undefined,
-                            "color": "#8991A4",
-                            "fontFamily": "Poppins_400Regular",
-                            "fontSize": 12,
-                            "fontStyle": undefined,
-                            "fontWeight": undefined,
-                            "letterSpacing": 0,
-                            "lineHeight": 16,
-                            "marginLeft": 12,
-                            "textDecorationLine": undefined,
-                          }
-                        }
-                      >
-                        I accepted
-                      </Text>
-                    </View>
-                  </View>
-                  <View
-                    style={Object {}}
-                  />
-                  <View
-                    accessible={true}
-                    focusable={false}
-                    onClick={[Function]}
-                    onResponderGrant={[Function]}
-                    onResponderMove={[Function]}
-                    onResponderRelease={[Function]}
-                    onResponderTerminate={[Function]}
-                    onResponderTerminationRequest={[Function]}
-                    onStartShouldSetResponder={[Function]}
+                  <Text
                     style={
                       Object {
-                        "opacity": 1,
+                        "backgroundColor": undefined,
+                        "color": "#1f2937",
+                        "fontFamily": "Poppins_600SemiBold",
+                        "fontSize": 12,
+                        "fontStyle": undefined,
+                        "fontWeight": undefined,
+                        "letterSpacing": 0,
+                        "lineHeight": 16,
+                        "textAlign": "right",
+                        "textDecorationLine": undefined,
                       }
                     }
                   >
-                    <Text
-                      style={
-                        Object {
-                          "backgroundColor": undefined,
-                          "color": "#1f2937",
-                          "fontFamily": "Poppins_600SemiBold",
-                          "fontSize": 12,
-                          "fontStyle": undefined,
-                          "fontWeight": undefined,
-                          "letterSpacing": 0,
-                          "lineHeight": 16,
-                          "textDecorationLine": undefined,
-                        }
-                      }
-                    >
-                       Terms & Privacy Policy
-                    </Text>
-                  </View>
+                    Forgot password?
+                  </Text>
                 </View>
               </View>
               <View
@@ -1314,10 +855,273 @@ exports[`<RegisterScreen /> renders correctly 1`] = `
                         }
                       }
                     >
-                      Register
+                      Sign In
                     </Text>
                   </View>
                 </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "justifyContent": "center",
+                "marginTop": 40,
+                "width": "100%",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": undefined,
+                  "color": "#F4F5F6",
+                  "fontFamily": "Poppins_600SemiBold",
+                  "fontSize": 12,
+                  "fontStyle": undefined,
+                  "fontWeight": undefined,
+                  "letterSpacing": 0,
+                  "lineHeight": 16,
+                  "opacity": 0.6,
+                  "textAlign": "center",
+                  "textDecorationLine": undefined,
+                }
+              }
+            >
+              Or sign in with
+            </Text>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "marginTop": 20,
+                }
+              }
+            >
+              <View
+                _disabled={
+                  Object {
+                    "opacity": 0.5,
+                  }
+                }
+                _text={
+                  Object {
+                    "color": "lightText",
+                  }
+                }
+                accessibilityRole="button"
+                accessible={true}
+                collapsable={false}
+                colorScheme="gray"
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onHoverIn={[Function]}
+                onHoverOut={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "transparent",
+                    "borderRadius": 12,
+                    "height": 64,
+                    "justifyContent": "center",
+                    "paddingBottom": 12,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "paddingTop": 12,
+                    "width": 64,
+                  }
+                }
+              >
+                <RNSVGSvgView
+                  accessibilityRole="image"
+                  align="xMidYMid"
+                  bbHeight={24}
+                  bbWidth={24}
+                  color={4294967295}
+                  focusable={false}
+                  meetOrSlice={0}
+                  minX={0}
+                  minY={0}
+                  stroke=""
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "borderWidth": 0,
+                      },
+                      Object {
+                        "color": "#FFFFFF",
+                        "height": 24,
+                        "width": 24,
+                      },
+                      Object {
+                        "flex": 0,
+                        "height": 24,
+                        "width": 24,
+                      },
+                    ]
+                  }
+                  tintColor={4294967295}
+                  vbHeight={20}
+                  vbWidth={20}
+                >
+                  <RNSVGGroup
+                    propList={
+                      Array [
+                        "stroke",
+                      ]
+                    }
+                    stroke={null}
+                  >
+                    <RNSVGGroup>
+                      <RNSVGPath
+                        d="M15 1.66663H12.5C11.395 1.66663 10.3352 2.10561 9.55376 2.88701C8.77236 3.66842 8.33337 4.72822 8.33337 5.83329V8.33329H5.83337V11.6666H8.33337V18.3333H11.6667V11.6666H14.1667L15 8.33329H11.6667V5.83329C11.6667 5.61228 11.7545 5.40032 11.9108 5.24404C12.0671 5.08776 12.279 4.99996 12.5 4.99996H15V1.66663Z"
+                        fill={null}
+                        propList={
+                          Array [
+                            "fill",
+                            "stroke",
+                            "strokeWidth",
+                            "strokeLinecap",
+                            "strokeLinejoin",
+                          ]
+                        }
+                        stroke={
+                          Array [
+                            2,
+                          ]
+                        }
+                        strokeLinecap={1}
+                        strokeLinejoin={1}
+                        strokeWidth={1.4}
+                      />
+                    </RNSVGGroup>
+                  </RNSVGGroup>
+                </RNSVGSvgView>
+              </View>
+              <View
+                style={
+                  Object {
+                    "width": 16,
+                  }
+                }
+              />
+              <View
+                _disabled={
+                  Object {
+                    "opacity": 0.5,
+                  }
+                }
+                _text={
+                  Object {
+                    "color": "lightText",
+                  }
+                }
+                accessibilityRole="button"
+                accessible={true}
+                collapsable={false}
+                colorScheme="gray"
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onHoverIn={[Function]}
+                onHoverOut={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "transparent",
+                    "borderRadius": 12,
+                    "height": 64,
+                    "justifyContent": "center",
+                    "paddingBottom": 12,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "paddingTop": 12,
+                    "width": 64,
+                  }
+                }
+              >
+                <RNSVGSvgView
+                  accessibilityRole="image"
+                  align="xMidYMid"
+                  bbHeight={24}
+                  bbWidth={24}
+                  color={4294967295}
+                  focusable={false}
+                  meetOrSlice={0}
+                  minX={0}
+                  minY={0}
+                  stroke=""
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "borderWidth": 0,
+                      },
+                      Object {
+                        "color": "#FFFFFF",
+                        "height": 24,
+                        "width": 24,
+                      },
+                      Object {
+                        "flex": 0,
+                        "height": 24,
+                        "width": 24,
+                      },
+                    ]
+                  }
+                  tintColor={4294967295}
+                  vbHeight={20}
+                  vbWidth={20}
+                >
+                  <RNSVGGroup
+                    propList={
+                      Array [
+                        "stroke",
+                      ]
+                    }
+                    stroke={null}
+                  >
+                    <RNSVGGroup>
+                      <RNSVGPath
+                        d="M19.1666 2.49996C18.3686 3.06285 17.4851 3.49338 16.55 3.77496C16.0481 3.19788 15.3811 2.78887 14.6392 2.60323C13.8973 2.41759 13.1162 2.46429 12.4017 2.737C11.6872 3.00972 11.0737 3.49529 10.6441 4.12805C10.2146 4.76082 9.98973 5.51024 9.99998 6.27496V7.10829C8.53551 7.14626 7.08437 6.82147 5.77582 6.16283C4.46727 5.50419 3.34191 4.53215 2.49998 3.33329C2.49998 3.33329 -0.833354 10.8333 6.66665 14.1666C4.95042 15.3316 2.90594 15.9157 0.833313 15.8333C8.33331 20 17.5 15.8333 17.5 6.24996C17.4992 6.01783 17.4769 5.78629 17.4333 5.55829C18.2838 4.71953 18.884 3.66055 19.1666 2.49996Z"
+                        fill={null}
+                        propList={
+                          Array [
+                            "fill",
+                            "stroke",
+                            "strokeLinecap",
+                            "strokeLinejoin",
+                          ]
+                        }
+                        stroke={
+                          Array [
+                            2,
+                          ]
+                        }
+                        strokeLinecap={2}
+                        strokeLinejoin={1}
+                      />
+                    </RNSVGGroup>
+                  </RNSVGGroup>
+                </RNSVGSvgView>
               </View>
             </View>
           </View>
