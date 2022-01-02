@@ -2,13 +2,13 @@ export { AccountScreen } from './AccountScreen'
 
 export { CartScreen } from './CartScreen'
 
-export { ChangePasswordScreen } from './ChangePasswordScreen'
-
 export { HomeScreen } from './HomeScreen'
 
 export { OrderScreen } from './OrderScreen'
 
 export { SearchScreen } from './SearchScreen'
+
+export { ChangePasswordScreen } from './ChangePasswordScreen/ChangePasswordScreen'
 
 export { ForgotPasswordScreen } from './ForgotPasswordScreen/ForgotPasswordScreen'
 
