@@ -13,6 +13,7 @@ const green = {
 }
 
 export const colors = {
+  overlay: 'rgba(0, 0, 0, 0.8)',
   // background: '#F9FAFB',
   secondary: {
     50: '#0E38B7',
