@@ -5,6 +5,7 @@ import { BagIcon as Bag } from './BagIcon'
 import { CameraIcon as Camera } from './CameraIcon'
 import { CartIcon as Cart } from './CartIcon'
 import { CheckIcon as Check } from './CheckIcon'
+import { ChevronDownIcon as ChevronDown } from './ChevronDownIcon'
 import { CloseIcon as Close } from './CloseIcon'
 import { DropdownIcon as Dropdown } from './DropdownIcon'
 import { EmailIcon as Email } from './EmailIcon'
@@ -30,6 +31,7 @@ export default {
   Camera,
   Cart,
   Check,
+  ChevronDown,
   Close,
   Dropdown,
   Email,
