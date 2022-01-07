@@ -3,7 +3,7 @@ import { FunctionComponent } from 'react'
 import { createBottomTabNavigator, BottomTabScreenProps } from '@react-navigation/bottom-tabs'
 import { Box, useTheme } from 'native-base'
 import { TabBar, TabBarKeyItem } from 'src/components'
-import { HomeScreen, SearchScreen, CartScreen, OrderScreen, AccountScreen } from 'src/screens'
+import { HomeScreen, SearchTabScreen, CartScreen, OrderScreen, AccountScreen } from 'src/screens'
 
 import { RootStackScreenComponent } from './RootStackNavigator'
 
@@ -53,7 +53,7 @@ export const TabStackNavigator: RootStackScreenComponent<'Tabs'> = () => {
         </Box>
       )}>
       <Tab.Screen component={HomeScreen} name="Home" />
-      <Tab.Screen component={SearchScreen} name="Search" />
+      <Tab.Screen component={SearchTabScreen} name="Search" />
       <Tab.Screen component={CartScreen} name="Cart" />
       <Tab.Screen component={OrderScreen} name="Order" />
       <Tab.Screen component={AccountScreen} name="Account" />

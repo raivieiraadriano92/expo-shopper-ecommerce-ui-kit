@@ -6,8 +6,6 @@ export { HomeScreen } from './HomeScreen'
 
 export { OrderScreen } from './OrderScreen'
 
-export { SearchScreen } from './SearchScreen'
-
 export { ChangePasswordScreen } from './ChangePasswordScreen/ChangePasswordScreen'
 
 export { ForgotPasswordScreen } from './ForgotPasswordScreen/ForgotPasswordScreen'
@@ -15,6 +13,8 @@ export { ForgotPasswordScreen } from './ForgotPasswordScreen/ForgotPasswordScree
 export { OnboardingScreen } from './OnboardingScreen/OnboardingScreen'
 
 export { RegisterScreen } from './RegisterScreen/RegisterScreen'
+
+export { SearchTabScreen } from './SearchTabScreen/SearchTabScreen'
 
 export { SignInScreen } from './SignInScreen/SignInScreen'
 

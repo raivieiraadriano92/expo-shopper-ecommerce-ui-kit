@@ -14,7 +14,7 @@ import {
 } from '../screens'
 import { TabStackNavigator } from './TabStackNavigator'
 
-type RootStackParamList = {
+export type RootStackParamList = {
   ChangePassword: undefined
   ForgotPassword: undefined
   Onboarding: undefined
@@ -46,6 +46,7 @@ export const RootStackNavigator: FunctionComponent = () => {
         headerShown: false
       }}>
       <NativeStackNavigator.Screen component={OnboardingScreen} name="Onboarding" />
+      <NativeStackNavigator.Screen component={TabStackNavigator} name="Tabs" />
       <NativeStackNavigator.Screen component={WelcomeScreen} name="Welcome" />
       <NativeStackNavigator.Group
         screenOptions={{ contentStyle: { backgroundColor: theme.colors.primary[850] } }}>
@@ -55,7 +56,6 @@ export const RootStackNavigator: FunctionComponent = () => {
         <NativeStackNavigator.Screen component={SignInScreen} name="SignIn" />
         <NativeStackNavigator.Screen component={VerifyCodeScreen} name="VerifyCode" />
       </NativeStackNavigator.Group>
-      <NativeStackNavigator.Screen component={TabStackNavigator} name="Tabs" />
     </NativeStackNavigator.Navigator>
   )
 }
