@@ -13,7 +13,9 @@ module.exports = function (api) {
             'test-utils': './test-utils'
           }
         }
-      ]
+      ],
+      // the Reanimated plugin has to be the last item in the plugins array
+      'react-native-reanimated/plugin'
     ],
     presets: ['babel-preset-expo']
   }
