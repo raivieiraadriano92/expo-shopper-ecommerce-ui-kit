@@ -2,9 +2,9 @@ import { FunctionComponent } from 'react'
 
 import { Badge, Heading, HStack, IconButton, Image, Text } from 'native-base'
 
-import Icons from '../Icons'
-import { Rating } from '../Rating'
-import { BaseCard } from './BaseCard'
+import Icons from '../../Icons'
+import { Rating } from '../../Rating'
+import { BaseCard } from '../BaseCard/BaseCard'
 
 type Props = {
   discount?: {

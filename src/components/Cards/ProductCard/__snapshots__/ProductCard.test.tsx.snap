@@ -1,0 +1,727 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductCard /> renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": 16,
+          "display": "flex",
+          "justifyContent": "center",
+          "marginBottom": 20,
+          "paddingBottom": 36,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 12,
+        },
+        Object {
+          "elevation": 24,
+          "shadowColor": "#1b1956",
+          "shadowOffset": Object {
+            "height": 0,
+            "width": 4,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 30,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "flex-end",
+          "left": 12,
+          "position": "absolute",
+          "right": 12,
+          "top": 12,
+          "zIndex": 1,
+        }
+      }
+    >
+      <RNSVGSvgView
+        accessibilityRole="image"
+        align="xMidYMid"
+        bbHeight={20}
+        bbWidth={20}
+        color={4280690214}
+        focusable={false}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        stroke=""
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "color": "#262626",
+              "height": 20,
+              "width": 20,
+            },
+            Object {
+              "flex": 0,
+              "height": 20,
+              "width": 20,
+            },
+          ]
+        }
+        tintColor={4280690214}
+        vbHeight={20}
+        vbWidth={20}
+      >
+        <RNSVGGroup
+          propList={
+            Array [
+              "stroke",
+            ]
+          }
+          stroke={null}
+        >
+          <RNSVGGroup>
+            <RNSVGPath
+              d="M17.3845 4.28541C16.9771 3.8779 16.4935 3.55463 15.9612 3.33408C15.429 3.11352 14.8584 3 14.2822 3C13.706 3 13.1355 3.11352 12.6032 3.33408C12.071 3.55463 11.5873 3.8779 11.18 4.28541L10.3346 5.13075L9.4893 4.28541C8.66655 3.46265 7.55066 3.00042 6.38709 3.00042C5.22354 3.00042 4.10763 3.46265 3.28487 4.28541C2.4621 5.10817 1.99988 6.22407 1.99988 7.38764C1.99988 8.55118 2.4621 9.6671 3.28487 10.4898L4.1302 11.3352L10.3346 17.5397L16.5391 11.3352L17.3845 10.4898C17.792 10.0825 18.1152 9.59893 18.3358 9.0666C18.5564 8.53435 18.6699 7.96382 18.6699 7.38764C18.6699 6.81147 18.5564 6.24093 18.3358 5.70864C18.1152 5.17635 17.792 4.69273 17.3845 4.28541Z"
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                  "strokeLinejoin",
+                ]
+              }
+              stroke={
+                Array [
+                  2,
+                ]
+              }
+              strokeLinecap={1}
+              strokeLinejoin={1}
+              strokeWidth={1.4}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+    <Image
+      accessibilityLabel="Alternate Text"
+      alt="Alternate Text"
+      onError={[Function]}
+      resizeMode="contain"
+      source={
+        Object {
+          "uri": "https://philco.vteximg.com.br/arquivos/ids/175970/PFO01BTP.jpg?v=637111522912700000",
+        }
+      }
+      style={
+        Object {
+          "height": 96,
+          "maxWidth": "100%",
+          "width": 96,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": "#1f2937",
+          "fontFamily": "Poppins_400Regular",
+          "fontSize": 12,
+          "fontStyle": undefined,
+          "fontWeight": undefined,
+          "letterSpacing": 0,
+          "lineHeight": 16,
+          "marginTop": 8,
+          "textDecorationLine": undefined,
+        }
+      }
+    >
+      product title
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "marginBottom": 8,
+          "marginTop": 4,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "color": "#404040",
+            "fontFamily": "Poppins_500Medium",
+            "fontSize": 14,
+            "fontStyle": undefined,
+            "fontWeight": undefined,
+            "letterSpacing": 0,
+            "lineHeight": 22,
+            "textDecorationLine": undefined,
+          }
+        }
+      >
+        $12.00
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <RNSVGSvgView
+        accessibilityRole="image"
+        align="xMidYMid"
+        bbHeight={12}
+        bbWidth={12}
+        color={4294292389}
+        focusable={false}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        stroke=""
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "color": "#F5B3A5",
+              "height": 12,
+              "width": 12,
+            },
+            Object {
+              "flex": 0,
+              "height": 12,
+              "width": 12,
+            },
+          ]
+        }
+        tintColor={4294292389}
+        vbHeight={20}
+        vbWidth={20}
+      >
+        <RNSVGGroup
+          propList={
+            Array [
+              "stroke",
+            ]
+          }
+          stroke={null}
+        >
+          <RNSVGGroup>
+            <RNSVGPath
+              d="M9.99996 1.66675L12.575 6.88341L18.3333 7.72508L14.1666 11.7834L15.15 17.5167L9.99996 14.8084L4.84996 17.5167L5.83329 11.7834L1.66663 7.72508L7.42496 6.88341L9.99996 1.66675Z"
+              fill={
+                Array [
+                  2,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeLinecap",
+                  "strokeLinejoin",
+                ]
+              }
+              stroke={
+                Array [
+                  2,
+                ]
+              }
+              strokeLinecap={1}
+              strokeLinejoin={1}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+      </RNSVGSvgView>
+      <View
+        style={
+          Object {
+            "width": 4,
+          }
+        }
+      />
+      <RNSVGSvgView
+        accessibilityRole="image"
+        align="xMidYMid"
+        bbHeight={12}
+        bbWidth={12}
+        color={4294292389}
+        focusable={false}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        stroke=""
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "color": "#F5B3A5",
+              "height": 12,
+              "width": 12,
+            },
+            Object {
+              "flex": 0,
+              "height": 12,
+              "width": 12,
+            },
+          ]
+        }
+        tintColor={4294292389}
+        vbHeight={20}
+        vbWidth={20}
+      >
+        <RNSVGGroup
+          propList={
+            Array [
+              "stroke",
+            ]
+          }
+          stroke={null}
+        >
+          <RNSVGGroup>
+            <RNSVGPath
+              d="M9.99996 1.66675L12.575 6.88341L18.3333 7.72508L14.1666 11.7834L15.15 17.5167L9.99996 14.8084L4.84996 17.5167L5.83329 11.7834L1.66663 7.72508L7.42496 6.88341L9.99996 1.66675Z"
+              fill={
+                Array [
+                  2,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeLinecap",
+                  "strokeLinejoin",
+                ]
+              }
+              stroke={
+                Array [
+                  2,
+                ]
+              }
+              strokeLinecap={1}
+              strokeLinejoin={1}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+      </RNSVGSvgView>
+      <View
+        style={
+          Object {
+            "width": 4,
+          }
+        }
+      />
+      <RNSVGSvgView
+        accessibilityRole="image"
+        align="xMidYMid"
+        bbHeight={12}
+        bbWidth={12}
+        color={4294292389}
+        focusable={false}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        stroke=""
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "color": "#F5B3A5",
+              "height": 12,
+              "width": 12,
+            },
+            Object {
+              "flex": 0,
+              "height": 12,
+              "width": 12,
+            },
+          ]
+        }
+        tintColor={4294292389}
+        vbHeight={20}
+        vbWidth={20}
+      >
+        <RNSVGGroup
+          propList={
+            Array [
+              "stroke",
+            ]
+          }
+          stroke={null}
+        >
+          <RNSVGGroup>
+            <RNSVGPath
+              d="M9.99996 1.66675L12.575 6.88341L18.3333 7.72508L14.1666 11.7834L15.15 17.5167L9.99996 14.8084L4.84996 17.5167L5.83329 11.7834L1.66663 7.72508L7.42496 6.88341L9.99996 1.66675Z"
+              fill={
+                Array [
+                  2,
+                ]
+              }
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeLinecap",
+                  "strokeLinejoin",
+                ]
+              }
+              stroke={
+                Array [
+                  2,
+                ]
+              }
+              strokeLinecap={1}
+              strokeLinejoin={1}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+      </RNSVGSvgView>
+      <View
+        style={
+          Object {
+            "width": 4,
+          }
+        }
+      />
+      <RNSVGSvgView
+        accessibilityRole="image"
+        align="xMidYMid"
+        bbHeight={12}
+        bbWidth={12}
+        color={4287205796}
+        focusable={false}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        stroke=""
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "color": "#8991A4",
+              "height": 12,
+              "width": 12,
+            },
+            Object {
+              "flex": 0,
+              "height": 12,
+              "width": 12,
+            },
+          ]
+        }
+        tintColor={4287205796}
+        vbHeight={20}
+        vbWidth={20}
+      >
+        <RNSVGGroup
+          propList={
+            Array [
+              "stroke",
+            ]
+          }
+          stroke={null}
+        >
+          <RNSVGGroup>
+            <RNSVGPath
+              d="M9.99996 1.66675L12.575 6.88341L18.3333 7.72508L14.1666 11.7834L15.15 17.5167L9.99996 14.8084L4.84996 17.5167L5.83329 11.7834L1.66663 7.72508L7.42496 6.88341L9.99996 1.66675Z"
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeLinecap",
+                  "strokeLinejoin",
+                ]
+              }
+              stroke={
+                Array [
+                  2,
+                ]
+              }
+              strokeLinecap={1}
+              strokeLinejoin={1}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+      </RNSVGSvgView>
+      <View
+        style={
+          Object {
+            "width": 4,
+          }
+        }
+      />
+      <RNSVGSvgView
+        accessibilityRole="image"
+        align="xMidYMid"
+        bbHeight={12}
+        bbWidth={12}
+        color={4287205796}
+        focusable={false}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        stroke=""
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "color": "#8991A4",
+              "height": 12,
+              "width": 12,
+            },
+            Object {
+              "flex": 0,
+              "height": 12,
+              "width": 12,
+            },
+          ]
+        }
+        tintColor={4287205796}
+        vbHeight={20}
+        vbWidth={20}
+      >
+        <RNSVGGroup
+          propList={
+            Array [
+              "stroke",
+            ]
+          }
+          stroke={null}
+        >
+          <RNSVGGroup>
+            <RNSVGPath
+              d="M9.99996 1.66675L12.575 6.88341L18.3333 7.72508L14.1666 11.7834L15.15 17.5167L9.99996 14.8084L4.84996 17.5167L5.83329 11.7834L1.66663 7.72508L7.42496 6.88341L9.99996 1.66675Z"
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeLinecap",
+                  "strokeLinejoin",
+                ]
+              }
+              stroke={
+                Array [
+                  2,
+                ]
+              }
+              strokeLinecap={1}
+              strokeLinejoin={1}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+      </RNSVGSvgView>
+      <View
+        style={
+          Object {
+            "width": 4,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "color": "#1f2937",
+            "fontFamily": "Poppins_400Regular",
+            "fontSize": 12,
+            "fontStyle": undefined,
+            "fontWeight": undefined,
+            "letterSpacing": 0,
+            "lineHeight": 16,
+            "textDecorationLine": undefined,
+          }
+        }
+      >
+        3.0
+      </Text>
+    </View>
+    <View
+      _disabled={
+        Object {
+          "opacity": 0.5,
+        }
+      }
+      _text={
+        Object {
+          "color": "lightText",
+        }
+      }
+      accessibilityRole="button"
+      accessible={true}
+      collapsable={false}
+      colorScheme="primary"
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onHoverIn={[Function]}
+      onHoverOut={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#07BFA5",
+            "borderRadius": 9999,
+            "bottom": 0,
+            "height": 40,
+            "justifyContent": "center",
+            "marginBottom": -20,
+            "paddingBottom": 4,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingTop": 4,
+            "position": "absolute",
+            "width": 40,
+          },
+          Object {
+            "elevation": 24,
+            "shadowColor": "#08bfa5",
+            "shadowOffset": Object {
+              "height": 0,
+              "width": 8,
+            },
+            "shadowOpacity": 0.3,
+            "shadowRadius": 20,
+          },
+        ]
+      }
+    >
+      <RNSVGSvgView
+        accessibilityRole="image"
+        align="xMidYMid"
+        bbHeight={20}
+        bbWidth={20}
+        color={4294967295}
+        focusable={false}
+        meetOrSlice={0}
+        minX={0}
+        minY={0}
+        stroke=""
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+            },
+            Object {
+              "color": "#FFFFFF",
+              "height": 20,
+              "width": 20,
+            },
+            Object {
+              "flex": 0,
+              "height": 20,
+              "width": 20,
+            },
+          ]
+        }
+        tintColor={4294967295}
+        vbHeight={20}
+        vbWidth={20}
+      >
+        <RNSVGGroup
+          propList={
+            Array [
+              "stroke",
+            ]
+          }
+          stroke={null}
+        >
+          <RNSVGGroup>
+            <RNSVGPath
+              d="M9.99978 2.92893V17.0711"
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                  "strokeLinejoin",
+                ]
+              }
+              stroke={
+                Array [
+                  2,
+                ]
+              }
+              strokeLinecap={1}
+              strokeLinejoin={1}
+              strokeWidth={1.4}
+            />
+            <RNSVGPath
+              d="M2.92871 10H17.0708"
+              fill={null}
+              propList={
+                Array [
+                  "fill",
+                  "stroke",
+                  "strokeWidth",
+                  "strokeLinecap",
+                  "strokeLinejoin",
+                ]
+              }
+              stroke={
+                Array [
+                  2,
+                ]
+              }
+              strokeLinecap={1}
+              strokeLinejoin={1}
+              strokeWidth={1.4}
+            />
+          </RNSVGGroup>
+        </RNSVGGroup>
+      </RNSVGSvgView>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;

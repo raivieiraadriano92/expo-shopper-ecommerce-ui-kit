@@ -10,7 +10,7 @@ import Animated, {
   SlideOutRight
 } from 'react-native-reanimated'
 
-import Icons from '../Icons'
+import Icons from '../../Icons'
 
 type Props = {
   active: boolean

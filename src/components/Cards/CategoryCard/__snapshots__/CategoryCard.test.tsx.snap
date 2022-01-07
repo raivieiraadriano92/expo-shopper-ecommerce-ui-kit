@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CategoryCard /> renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F4F5F6",
+          "borderRadius": 16,
+          "flexDirection": "row",
+          "height": 88,
+          "justifyContent": "space-between",
+          "paddingLeft": 12,
+          "paddingRight": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "backgroundColor": undefined,
+            "color": "#1f2937",
+            "fontFamily": "Poppins_400Regular",
+            "fontSize": 14,
+            "fontStyle": undefined,
+            "fontWeight": undefined,
+            "letterSpacing": 0,
+            "lineHeight": 22,
+            "textDecorationLine": undefined,
+          }
+        }
+      >
+        category title
+      </Text>
+      <View
+        style={Object {}}
+      />
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Image
+          accessibilityLabel="Alternate Text"
+          alt="Alternate Text"
+          onError={[Function]}
+          resizeMode="contain"
+          source={
+            Object {
+              "uri": "https://philco.vteximg.com.br/arquivos/ids/175970/PFO01BTP.jpg?v=637111522912700000",
+            }
+          }
+          style={
+            Object {
+              "borderRadius": 12,
+              "height": 52,
+              "maxWidth": "100%",
+              "width": 52,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;
